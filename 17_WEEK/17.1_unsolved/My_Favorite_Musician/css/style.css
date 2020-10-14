@@ -1,0 +1,27 @@
+html{
+    background-color: #FFB7B7;
+    font-family: Lato;
+    text-align: center;
+}
+h1{
+    color: #823e4e;
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+}
+
+ul{
+    color: white;
+    text-align: center;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+img{
+    padding: 25;
+    border:#823e4e;
+}
+p{
+    color: #823e4e;
+}
+a:hover{
+    font-weight: 500; 
+}
