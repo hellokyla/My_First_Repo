@@ -8,6 +8,9 @@ body{
     padding:15px;
     background-color: #ffffff;
 }
+.header_button:hover{
+    background-color: #ffd4db;
+}
 
 .sidebar{
     width: 30%;
@@ -23,15 +26,13 @@ body{
     text-align: center;
     background-color: #ffffff;
 }
-.profilePic{
-    padding-top: 20px;
-}
+
 #stats{
     position: absolute;
     top:300px;
     background-color: #ffd4db;
     width:100%;
-    height: 500px;
+    height: 400px;
 }
 
 .body{
@@ -40,11 +41,21 @@ body{
 
 img{
     width: 150px;
+
 }
 
-.stage{
+.upperStage{
     width: 70%;
-    height: 800px;
+    height: 300px;
+    float:right;
+    background-color:  lightpink;
+    padding: 0;
+    position: relative;
+}
+
+.lowerStage{
+    width: 70%;
+    height: 400px;
     float:right;
     background-color:  lightpink;
     padding: 0;
@@ -66,22 +77,41 @@ img{
     width: 33%;
     font-style: italic;
 }
+
+.card img{
+    border: 3px solid #ffffff;
+}
+
+ul{
+    padding-left: 40px;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
 p{
     padding-left: 20px;
 }
+
 h2{
     padding-left: 20px;
 }
 .upper{
     position: absolute;
-    height: 250px;
+    height: 50%;
     width:100%;
 }
 
 .lower{
     position: absolute;
-    top: 250px;
-    height: 500px;
+    top: 10px;
+    height: 390px;
     width: 100%;
     text-align: center;
+}
+
+.profilePic{
+    padding-top: 20px;
+    width: 225px;
 }
